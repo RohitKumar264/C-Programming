@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int n,s=1;
+    printf("Enter number to find factorial \n");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        s=s*i;
+    }
+    printf("Factorial is %d",s);
+    return 0;
+}
